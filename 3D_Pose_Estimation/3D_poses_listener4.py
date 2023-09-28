@@ -73,10 +73,9 @@ for change in change_stream:
 
         try:
             # Upload fbx file to s3
-            url_file = s3.upload_file(file_name=output_path + "/person_" + str(dancers_ids[i]["id"]) + "/humor_output_person_" + str(dancers_ids[i]["id"]) + ".fbx",
-                # object_name=os.path.join(ROOT_PATH_FOR_DANCE_RECOGNITION, "video_shot_" + str(i) + ".mp4")
+            url_file = s3.upload_file(file_name=output_path + "/person_" + str(dancers_ids[i]["id"]) + "/humor_output_person_" + str(dancers_ids[i]["id"]) + ".fbx",               
                 object_name=ROOT_PATH_FOR_POSE_ESTIMATION + "/shot_" + str(message["shot_id"]) +
-                            "/humor_output_person_" + str(dancers_ids[i]["id"]) + ".fbx")
+                "/humor_output_person_" + str(dancers_ids[i]["id"]) + ".fbx")
             print("Successful upload to s3!")
             print("url_file: {}".format(url_file))
             output_dict["fbx_urls"].append({"id": dancers_ids[i]["id"], "form": dancers_ids[i]["form"], "path": url_file})
