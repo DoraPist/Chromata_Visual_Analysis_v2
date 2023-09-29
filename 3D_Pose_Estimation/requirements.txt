@@ -1,0 +1,9 @@
+pip install redis
+conda install -c anaconda pymongo
+conda install -c conda-forge dnspython
+conda install -c anaconda boto3
+conda install -c anaconda natsort
+
+https://linuxhint.com/install-ffmpeg-ubuntu/   (before new installation execute: conda uninstall ffmpeg / pip uninstall ffmpeg / sudo apt-get remove ffmpeg)
+sudo apt install ffmpeg
+
