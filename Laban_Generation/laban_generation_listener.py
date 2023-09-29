@@ -38,7 +38,7 @@ while True:
             print("[INFO] Message is saved in ", path + "input_" + time.strftime("%Y%m%d%H%M%S") + ".json")
 
             # Save input message in MongoDB
-            db.ImagesDB.Chromata_InputQueue_LG.insert_one(input_data)
+            db.ImagesDB.Chromata_InputQueue_LG.insert_one(input_data)  # May need adaptation.
             print("[INFO] Message is saved in MongoDB")
 
         print("\n[INFO] Laban-Generation waits for a message...")
