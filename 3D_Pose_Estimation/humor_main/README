@@ -1,5 +1,5 @@
 In this folder, we have a slightly changed version of the HuMoR 3D pose estimator, where we use AlphaPose for the estimation of the 2D poses, 
 supporting multi-person 3D pose estimation. In this way, we can use HuMoR for videos that depict more than just one person. To run the code you
 should download AlphaPose from the following repo and put it inside this folder.
-*AlphaPose repo: https://github.com/MVIG-SJTU/AlphaPose
+*AlphaPose repo: https://github.com/MVIG-SJTU/AlphaPose 
 
