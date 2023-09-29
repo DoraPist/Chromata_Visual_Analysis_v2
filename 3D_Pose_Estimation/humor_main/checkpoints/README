@@ -1,1 +1,7 @@
 Pretrained model checkpoints are available for HuMoR, HuMoR-Qual, and the initial state Gaussian mixture. To download (~215 MB), from the HuMoR repo root run bash get_ckpt.sh.
+
+Finally, you should have 3 folders in this directory:
+
+--humor
+--humor_qual
+--init_state_prior_gmm
