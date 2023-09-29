@@ -1,1 +1,1 @@
-
+In this folder, we have a slightly changed version of the HuMoR 3D pose estimator, where we use AlphaPose for the estimation of the 2D poses, supporting multi-person 3D pose estimation. In this way, we can use HuMoR for videos that depict more than just one person. 
